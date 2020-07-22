@@ -6,6 +6,10 @@ html {
   background-color: #1B1919 !important;
 }
 
+.navbar-nav {
+  margin-right: 20px;
+}
+
 .nav-logo {
   display: flex;
   flex-wrap: wrap;
