@@ -41,7 +41,6 @@ h1 {
   max-width: 100%;
   height: auto;
   display: table;
-  margin-right: 50px;
 }
 
 @keyframes animatedBackground {
