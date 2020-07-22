@@ -6,10 +6,6 @@ html {
   background-color: #1B1919 !important;
 }
 
-#sectionsNav {
-  max-width: 100%;
-}
-
 .nav-logo {
   display: flex;
   flex-wrap: wrap;
@@ -45,7 +41,7 @@ h1 {
   max-width: 100%;
   height: auto;
   display: table;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 @keyframes animatedBackground {
