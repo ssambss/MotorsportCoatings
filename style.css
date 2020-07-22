@@ -43,25 +43,16 @@ h1 {
   display: table;
 }
 
-@keyframes animatedBackground {
-  from {
-    background-position: 0% 0%;
-  }
-  to {
-    background-position: 100% ;
-  }
-}
-#animate-area {
-  background-image: url(https://i.pinimg.com/originals/8c/e8/3b/8ce83b36bf3a65427144bcce7ec68065.jpg);
-  background-position: 0% 0%;
-  background-repeat: repeat-x;
-  animation: animatedBackground 30s linear infinite alternate;
+.carousel img {
+  top: 0;
+  left: 0;
+  height: auto;
+  max-width: 100%;
 }
 
 .main-raised {
   background: #0e0b0b;
 }
-
 
 .main-mod {
   margin: -60px 30px 0px;
