@@ -21,11 +21,19 @@ body {
   color: #cc0808;
 }
 
+@font-face {
+  src: url(UniCAPS.otf);
+  font-family: Uni;
+}
 
 h1 {
   font-family: 'Candal', sans-serif;
   color: #cc0808;
   font-size: 3em;
+}
+
+h2 {
+  font-family: Uni;
 }
 
 .title {
