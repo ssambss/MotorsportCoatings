@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  font-family: 'Candal', sans-serif;
+  font-family: Uni;
   color: #cc0808;
   font-size: 3em;
 }
@@ -37,6 +37,7 @@ h2 {
 }
 
 .title {
+  font-family: Uni;
   color: #cc0808;
   text-align: center;
   margin: 40px auto 30px;
