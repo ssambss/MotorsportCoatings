@@ -1,0 +1,249 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  background-color: #1B1919;
+  max-width: 100%;
+  height: auto;
+  font-size: 1em;
+}
+
+.nav-item {
+  color: #ffffff;
+}
+
+.nav-item:hover {
+  color: #cc0808;
+}
+
+@font-face {
+  src: url(UniCAPS.otf);
+  font-family: Uni;
+}
+
+
+h1 {
+  font-family: Uni;
+  color: #cc0808;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: Uni;
+}
+
+.title {
+  font-family: Uni;
+  color: #cc0808;
+  text-align: center;
+  margin: 40px auto 30px;
+}
+
+.title-contact {
+  color: #cc0808;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.logo:active {
+  transform: translateY(1px);
+}
+
+.page-header {
+  height: auto;
+  padding-bottom: 1.9em;
+}
+
+.carousel {
+  max-width: 100%;
+  background:#1B1919;
+  height: auto;
+  background-size: cover;
+}
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.material-icons {
+  color: #f8f8ff;
+  opacity: 1;
+  font-size: 200%;
+}
+
+#about {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-raised {
+  background: #0e0b0b;
+  padding-bottom: 5em;
+}
+
+.hinnasto {
+  color: #a7a7a7;
+  text-align: center;
+  padding-top: 6em;
+  height: auto;
+  display: inline-block;
+}
+
+.hinnasto-title {
+  text-align: left;
+}
+
+#leftSide {
+  max-width: 100%;
+  height: auto;
+}
+
+#rightSide {
+  max-width: 100%;
+  height: auto;
+}
+
+#leftTable {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#rightTable {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row1 {
+  border-top: 0.1em solid #2b2929;
+}
+
+.row-hinnasto {
+  border-bottom: 0.1em solid #2b2929;
+}
+
+.row-last {
+  border-bottom: none;
+}
+
+tr, td {
+  padding-top: 1em;
+}
+
+td, td {
+  padding-bottom: 1em;
+}
+
+tr:hover {
+  background-color: #191a1c;
+}
+
+
+.column-1 {
+  text-align: left;
+}
+
+.column-2 {
+  padding-left: 10em;
+  text-align: right;
+  max-width: 100%;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-md-6{
+	display: flex;
+	align-items: center;
+}
+
+.phonenumber {
+  list-style: none;
+  color: #a7a7a7;
+}
+
+
+.card-title {
+  color: #a7a7a7;
+}
+
+.form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(to top, #8a0414 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.btn.btn-primary {
+	color: #ffff;
+	background-color: #8a0414;
+	border-color: #8a0414;
+}
+
+.btn.btn-primary:hover {
+	color: #ffff;
+	background-color: #bf0d23;
+	border-color: #bf0d23;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: none, 0 0 0 0.2rem rgba(191, 13, 35, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #0000;
+  border-color: #bf0d23;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #bf0d23;
+  border-color: #bf0d23;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none, 0 0 0 0.2rem rgba(191, 13, 35, 0.5);
+}
+
+#map {
+  height: 800px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+
+#contact {
+  max-width: 100%;
+  height: auto;
+  background-color: #0e0b0b;
+}
+
+#yhteys {
+  margin-top: -7em;
+}
+
+.yhteystiedot .h4 {
+  color: #a7a7a7;
+  font-family: 'Candal', sans-serif;
+  font-size: 0.9em;
+}
+
+.copyright {
+  color: #a7a7a7;
+}
+
